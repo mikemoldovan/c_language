@@ -15,7 +15,7 @@ int max(int a, int b, int c) {
 }
 
 
-int needle(int n, int m, char str1[n], char str2[m], int g_pen, int mm_pen, int m_score) {
+void needle(int n, int m, char str1[n], char str2[m], int g_pen, int mm_pen, int m_score) {
 	
 // Calculating the dynamic-programming matrix
 	int i,j;
@@ -87,7 +87,6 @@ int needle(int n, int m, char str1[n], char str2[m], int g_pen, int mm_pen, int 
 		printf("%c", alseq2[j]);
 	}
 	printf("\n");
-	return 0;
 }
 
 
