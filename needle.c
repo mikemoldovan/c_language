@@ -1,4 +1,5 @@
 // Needelmann-Wunsch algorithm of simple two-sequence alignment
+// Actually still on development stage
 
 #include <stdio.h>
 #include <String.h>
@@ -89,6 +90,7 @@ int needle(int n, int m, char str1[n], char str2[m], int g_pen, int mm_pen, int 
 	return 0;
 }
 
+
 int main() {
 	int gap_pnlt, mism_pnlt, mtch_rev, len1, len2;
 	char seqfile1[30], seqfile2[30], str1[50000], str2[50000];
@@ -96,7 +98,7 @@ int main() {
 	printf("Gap penalty: ");      scanf("%d", &gap_pnlt);
 	printf("Mismatch penalty: "); scanf("%d", &mism_pnlt);
 	printf("Match reward: ");     scanf("%d", &mtch_rev);
-	printf("Input files containing plain sequences\n")
+	printf("Input 2 files containing plain sequences in one string\n");
 	printf("First sequence: ");   scanf("%s", seqfile1);
 	printf("Second sequence: ");  scanf("%s", seqfile2);
 	
