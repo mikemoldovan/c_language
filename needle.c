@@ -89,7 +89,6 @@ int needle(int n, int m, char str1[n], char str2[m], int g_pen, int mm_pen, int 
 	return 0;
 }
 
-
 int main() {
 	int gap_pnlt, mism_pnlt, mtch_rev, len1, len2;
 	char seqfile1[30], seqfile2[30], str1[50000], str2[50000];
