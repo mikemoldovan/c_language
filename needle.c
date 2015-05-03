@@ -17,7 +17,7 @@ int max(int a, int b, int c) {
 
 int needle(int n, int m, char str1[n], char str2[m], int g_pen, int mm_pen, int m_score) {
 	
-// Calculating the dynamic-programming matrix & creating aligmnent
+// Calculating the dynamic-programming matrix
 	int i,j;
 	int mat[n+1][m+1];
 	char alseq1[n+m], alseq2[n+m];
